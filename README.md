@@ -33,3 +33,4 @@ The app is at http://localhost:3000, the API at `/api/tasks` (`GET`, `POST`) and
 | `docs/ai/templates/` | templates for the homework |
 
 There is deliberately **no** `AGENTS.md`, no `.claude/` and no CODEOWNERS yet. Adding them is the homework.
+Note: `npm run dev` (Next.js 16) creates an `AGENTS.md` with a managed Next.js block; see HOMEWORK.md.
