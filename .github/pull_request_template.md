@@ -2,7 +2,6 @@
 
 - **First and last name (required):**
 - GitHub handle:
-- Team / project at SPD (optional):
 
 ## What I built
 
