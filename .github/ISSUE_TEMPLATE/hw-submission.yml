@@ -1,0 +1,22 @@
+name: HW 1.1 submission (own repo)
+description: Use only if you did the homework in your own public repo instead of a fork of this one.
+title: "HW 1.1 submission — <first and last name>"
+labels: ["hw1-1"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: First and last name
+    validations:
+      required: true
+  - type: input
+    id: pr
+    attributes:
+      label: Link to the PR in your public repo
+      placeholder: https://github.com/<you>/<repo>/pull/1
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything we should know
