@@ -1,4 +1,4 @@
-# ws1-homework-starter
+# 2026-spd-ws1-homework-starter
 
 Starter repo for **Homework 1.1 «Your team harness, in one PR»** of the SPD «Team AI Engineering» workshop.
 A tiny Next.js app (Team Tasks) with an API, SQLite migrations and tests. The app is small on purpose: the homework

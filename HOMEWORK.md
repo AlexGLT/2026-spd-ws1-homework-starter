@@ -34,7 +34,7 @@ Every rule, skill and hook carries a header with `owner`, `why` and `review-by` 
 
 1. **Fork** this repo.
 2. Create a branch **`hw1-1/<your-github-handle>`**.
-3. Open a **PR back to `koldovsky/ws1-homework-starter`**. The open PR is your submission.
+3. Open a **PR back to `koldovsky/2026-spd-ws1-homework-starter`**. The open PR is your submission.
 4. Fill in the PR template — **your first and last name are required**, a GitHub handle alone doesn't tell us who you are.
 
 **Your own public repo instead?** Do the work there, open a PR in your repo, then open an issue here with the
@@ -49,7 +49,7 @@ Never use client code, secrets or anything under NDA. Public repos only.
 - **No `CLAUDE.md` or `CLAUDE.local.md` otherwise.** Either one makes Claude Code read it instead of `AGENTS.md`. Personal preferences go to `~/.claude/CLAUDE.md` and `.claude/settings.local.json` (git-ignored).
 - **Company policy blocks project hooks?** If your work machine's managed settings allow only managed hooks, your hook won't fire there. Run the script yourself with a sample payload and attach the output and exit code — see [hook test](docs/ai/hook-test.md). That counts.
 - **`npm run dev` writes into `AGENTS.md`.** Next.js 16 adds (or creates) a managed block between `<!-- BEGIN:nextjs-agent-rules -->` markers on every `next dev`. Keep it, or turn it off with `agentRules: false` in `next.config.ts` — but decide on purpose and say which in the PR.
-- **Optional:** consume the shared harness from `koldovsky/shop-harness` as a plugin and add one repo-local rule on top.
+- **Optional:** consume the shared harness from `koldovsky/2026-spd-shop-harness` as a plugin and add one repo-local rule on top.
 
 ## Acceptance criteria (self-check)
 
