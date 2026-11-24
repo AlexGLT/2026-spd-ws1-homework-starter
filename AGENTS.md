@@ -17,8 +17,7 @@ Team Tasks app. Next.js 16 (App Router), React 19, TypeScript strict, built-in `
 - Run all commands from the repo root. The migration path comes from `process.cwd()`.
 
 ## Hard rules
-- Keep business rules in `lib/`. Functions take `db` as a parameter. Route handlers stay thin.
-- Signal a rule failure with `RuleViolation`. Routes map it to 422, bad input to 400.
+- Keep business rules in `lib/`. Functions take `db` as a parameter.
 - Task status moves `todo → doing → done`. `done` is final. Do not skip `doing`.
 - Keep package versions pinned exactly (no `^`).
 
@@ -27,6 +26,5 @@ Team Tasks app. Next.js 16 (App Router), React 19, TypeScript strict, built-in `
 - No `CLAUDE.md` or `CLAUDE.local.md` in the repo. Personal settings go in `~/.claude/CLAUDE.md` and `.claude/settings.local.json`.
 
 ## Pointers
-- Homework brief: `HOMEWORK.md`
-- Hook testing: `docs/ai/hook-test.md`
-- Templates: `docs/ai/templates/`
+- Team AI agreement (autonomy, checks, owners): `docs/ai/team-agreement.md`
+- Handoff note for the end of a session: `docs/ai/handoff-template.md`
